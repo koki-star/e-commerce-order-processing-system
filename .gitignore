@@ -1,0 +1,50 @@
+# Environment and secrets
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+dist/
+
+# Local AI/agent notes
+.claude/
+.cursor/
+.windsurf/
